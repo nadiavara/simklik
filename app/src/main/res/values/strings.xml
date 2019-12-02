@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">simklik</string>
+    <string name="bantuan">
+        Menu Registrasi : \n
+        1. Pilih menu Registrasi.\n
+        2. Isikan data pasien terlebih dahulu dan buat username dan password.\n
+        \n
+        Menu Daftar Pasien : \n
+        1. Pilih menu Daftar Pasien kemudian isikan username dan password yang telah diisikan di register.\n
+        2. Untuk mencari pasien isi kolom pada daftar pasien untuk mencari nama atau alamat pasien\n
+        3. Dan akan muncul Detail Pasien untuk data dan rekam medis pasien.\n
+        \n
+        Menu Bantuan :\n
+        1. Pilih Menu Bantuan\n
+        2. Halaman bantuan akan memuat tentang informasi tata cara penggunaan aplikasi.\n
+        \n
+        Menu Tentang :\n
+        1. Pilih menu Tentang.\n
+        2. Halaman tentang akan memuat tentang informasi aplikasi.\n
+    </string>
+    <string name="tentang">
+        Aplikasi Sistem Informasi Pasien Klinik adalah aplikasi yang menginformasikan tentang pasien yang menjalani pasien di Klinik.\n
+        \n
+        Dengan aplikasi ini, user yang ingin menjenguk atau mendaftar pasien akan lebih mudah dan lebih cepat.\n
+    </string>
+</resources>

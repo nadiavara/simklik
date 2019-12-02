@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity5">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="80dp"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/text_nama"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="100dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@color/blue"/>
+
+        <TextView
+            android:id="@+id/text_tgl_lahir"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="140dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@color/blue"/>
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="185dp"
+            android:text="Alamat"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_alamat"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="205dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@color/blue"/>
+
+        <TextView
+            android:id="@+id/ruang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="240dp"
+            android:text="Ruang"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_ruang"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="260dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@color/blue"/>
+
+        <TextView
+            android:id="@+id/kamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="290dp"
+            android:text="No.Kamar"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_kamar"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="310dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@color/blue"/>
+
+
+        <TextView
+            android:id="@+id/tgl_masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="345dp"
+            android:text="Tgl. Masuk"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_tgl_masuk"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="364dp"
+            android:background="@color/blue"
+            android:inputType="date"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tgl_keluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="400dp"
+            android:text="Tgl. Keluar"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_tgl_keluar"
+            android:layout_width="350dp"
+            android:layout_height="30dp"
+            android:ems="10"
+            android:inputType="date"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="420dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@color/blue"/>
+
+        <TextView
+            android:id="@+id/rekam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="460dp"
+            android:text="Rekam Medis"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_rekam_medis"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="480dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:background="@color/blue"/>
+
+</RelativeLayout>

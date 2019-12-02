@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="213dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/edit_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="330dp"
+            android:ems="10"
+            android:hint="Username"
+            android:textColorHint="@color/light_gray"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.99" />
+
+        <EditText
+            android:id="@+id/edit_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="400dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:background="@color/white"
+            android:textColor="@color/green"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="460dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity3">
+
+        <TextView
+            android:id="@+id/resultTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="90dp"
+            android:paddingStart="40dp"
+            android:text="Isikan Data Pasien : "
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/edit_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="120dp"
+            android:hint="Nama Lengkap"/>
+
+        <EditText
+            android:id="@+id/edit_no_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="165dp"
+            android:hint="No.HP"/>
+
+        <EditText
+            android:id="@+id/edit_no_ktp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="210dp"
+            android:hint="No.KTP"/>
+
+        <EditText
+            android:id="@+id/edit_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="255dp"
+            android:hint="Alamat"/>
+
+        <EditText
+            android:id="@+id/edit_tgl_lahir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="300dp"
+            android:hint="Tgl Lahir"/>
+
+        <EditText
+            android:id="@+id/edit_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPersonName"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="345dp"
+            android:hint="Username"/>
+
+        <EditText
+            android:id="@+id/edit_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="16"
+            android:inputType="textPassword"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="390dp"
+            android:hint="Password"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="460dp" />
+
+</RelativeLayout>

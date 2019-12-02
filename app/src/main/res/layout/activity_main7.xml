@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity7">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="700dp"
+            android:id="@+id/text_tentang"
+            android:paddingTop="280dp"
+            android:paddingStart="40dp"
+            android:paddingRight="20dp"
+            android:text="@string/tentang"
+            android:textColor="@color/black"/>/>
+    </RelativeLayout>
